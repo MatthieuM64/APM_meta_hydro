@@ -287,7 +287,7 @@ int main(int argc, char *argv[])
 			fileAverages <<  t*dt << " " << n1+n2+n3+n4 << " " << n1 << " " << n2 << " " << n3 << " " << n4 << endl;
 		}
 		
-		//At each time-step update RHO and MAG arrays.
+		//At each time-step update densities.
 		finiteDiff(RHO1,RHO2,RHO3,RHO4,Dpara,Dperp,v0,gamma0,beta,NX,NY);
 	}
 	return 0;
